@@ -1,0 +1,25 @@
+{
+  "name": "env",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "server.js",
+  "scripts": {
+    "test": "-"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grymyk/kpi.env.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Myko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grymyk/kpi.env/issues"
+  },
+  "homepage": "https://github.com/grymyk/kpi.env#readme",
+  "dependencies": {
+    "metasync": "^0.3.8"
+  }
+}
