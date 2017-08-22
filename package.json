@@ -2,9 +2,10 @@
   "name": "env",
   "version": "1.0.0",
   "description": "-",
-  "main": "server.js",
+  "main": "main.js",
   "scripts": {
-    "test": "-"
+    "test": "eslint . && node main",
+	"lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
   "homepage": "https://github.com/grymyk/kpi.env#readme",
   "dependencies": {
     "metasync": "^0.3.8"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-google": "^0.9.1"
   }
 }
